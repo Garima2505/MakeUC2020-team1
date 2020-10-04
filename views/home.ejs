@@ -22,10 +22,10 @@
                 <a class="navbar-brand js-scroll-trigger" href="#page-top"><h1>BUBBLE</h1></a>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ml-auto">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Groups</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Chat</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/chat">Chat Rooms</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/chatbot">Talk to our Bot</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Profile</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Logout</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/logout">Logout</a></li>
                     </ul>
                 </div>
             </div>
@@ -39,7 +39,7 @@
             </div>
         </header>
         <!-- Services-->
-        <section class="page-section" id="services">
+        <section class="page-section" id="services" style="color: white; background: #212528;">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Offerings</h2>
@@ -51,25 +51,33 @@
                             <i class="fas fa-circle fa-stack-2x text-primary"></i>
                             <i class="fa fa-users fa-stack-1x fa-inverse"></i>
                         </span>
+                        <a href="/chat" style="text-decoration: none;">
                         <h4 class="my-3">Group Chat</h4>
                         <p class="text-muted">Connect with friends with familiar interest.</p>
+                    </a>
                     </div>
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
                             <i class="fas fa-circle fa-stack-2x text-primary"></i>
                             <i class="fas fa-user-friends fa-stack-1x fa-inverse"></i>
                         </span>
+                        <a href="/chat" style="text-decoration: none;">
                         <h4 class="my-3">Find a friend</h4>
                         <p class="text-muted">Find a person that can understand you.</p>
+                        </a>
                     </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-assistive-listening-systems fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">You talk we listen</h4>
-                        <p class="text-muted">Don't wanna interact? No worries, we're here for you.</p>
-                    </div>
+                        <div class="col-md-4">
+                            <span class="fa-stack fa-4x">
+                                <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                                <i class="fas fa-assistive-listening-systems fa-stack-1x fa-inverse"></i>
+                            </span>
+                            <a href="/chatbot" style="text-decoration: none;">
+                            <h4 class="my-3">You talk we listen</h4>
+                            <p class="text-muted">Don't wanna interact? No worries, we're here for you.</p>
+                            </a>
+                            
+                        </div>
+                    
                 </div>
             </div>
         </section>
